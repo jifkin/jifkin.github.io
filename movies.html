@@ -14,6 +14,16 @@
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
 		<link rel="shortcut icon" href="imagesfavicon.ico" type="image/x-icon"/>
 		<style>
+
+			.image-grid {
+			 	display: grid;
+			 	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+			 	gap: 0px; /* spacing between images */
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 0 16px;
+			}
+
 	        .image-tile {
 	            width: 100%;
 	            height: 200px; /* Adjust as needed */
@@ -61,80 +71,30 @@
 						Also peep my <a href="https://letterboxd.com/waitwuh/">Letterboxd</a> if you're inclined.</p>
 					</header>
 					
-					<div class="container mt-4">
-					    <div class="row g-0 mx-auto">
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/Sinners.png" title="Great movie. Watched it again, still great.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/Warfare.png" title="How does Michael Gandolfini keep getting roles?">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/FinalDestinationBloodlines.png" title="What a difference a decade+ makes. Hell yeah.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/NeighborhoodWatch.png" title="Surprised to find this one. Really enjoy JDM and Jack Quaid.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/Companion.png" title="Took a rewatch, but I enjoy it now. Retracting my original take.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/Mickey17.png" title="A little disappointed by this one. Leaned too much into the Okja of Snowpiercer for me.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/Novocaine.png" title="B̶e̶s̶t̶ Least staying power of the Jack Quaid triliogy.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/Thunderbolts.png" title="2nd movie this year in which David Harbour stole the show.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/Drop.png" title="I'm so confused. Why did the restaurant depressurize?">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/DogMan.png" title="Definitely saw this 20 years after I was supposed to, but nonetheless great. Okay, maybe 2 years.">
-					        </div>
-
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/HeartEyes.png" title="I didn't fully like this one, but it feels wrong to group it with the other slop I've seen this year.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/Opus.png" title="John Malkovic's singing is by far the most interesting part of this movie.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/DeathOfAUnicorn.png" title="Other miss by A24. What is happening to my darling?">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/Borderline.png" title="This movie made $17,000 in a sole weekend and no one heard of it. After watching it, I get why. POOOoooaaaAAAaaaAh">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/MonkeyThe.png" title="Oh man I really wanted to like this. This is not Final Destination.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/WorkingManA.png" title="That moon was HUGE.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/CaptainAmericaBraveNewWorld.png" title="Why was Han Solo red? And where was Eric Bana?">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/YoureCordiallyInvited.png" title="First movie of 2025! This year's Ricky Stanicky doesn't hold a candle to its predecessor.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/ElectricStateThe.png" title="This cost how much to make? Also why did all the machines need to be controlled with a little boy's brain?">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/GorgeThe.png" title="There was a tree monster in the gorge.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/Havoc.png" title="I have so many questions about this movie, but the bullets in that list wouldn't come close to the number of bullets it takes to kill someone in this.">
-					        </div>
-					        <div class="col-auto p-0">
-								<img class="image-tile" src="images/Posters/LoveHurts.png" title="This movie left such a little impression that the only proof I have to myself that I saw it is my letterboxd review.">
-					        </div>
-
-					        
-					    </div>
-					</div>
-
+				    <div class="image-grid">
+						<img class="image-tile" src="images/Posters/Sinners.png" title="Great movie. Watched it again, still great.">
+						<img class="image-tile" src="images/Posters/Warfare.png" title="How does Michael Gandolfini keep getting roles?">
+						<img class="image-tile" src="images/Posters/FinalDestinationBloodlines.png" title="What a difference a decade+ makes. Hell yeah.">
+						<img class="image-tile" src="images/Posters/NeighborhoodWatch.png" title="Surprised to find this one. Really enjoy JDM and Jack Quaid.">
+						<img class="image-tile" src="images/Posters/Companion.png" title="Took a rewatch, but I enjoy it now. Retracting my original take.">
+						<img class="image-tile" src="images/Posters/Mickey17.png" title="A little disappointed by this one. Leaned too much into the Okja of Snowpiercer for me.">
+						<img class="image-tile" src="images/Posters/Novocaine.png" title="B̶e̶s̶t̶ Least staying power of the Jack Quaid triliogy.">
+						<img class="image-tile" src="images/Posters/Thunderbolts.png" title="2nd movie this year in which David Harbour stole the show.">
+						<img class="image-tile" src="images/Posters/Drop.png" title="I'm so confused. Why did the restaurant depressurize?">
+						<img class="image-tile" src="images/Posters/DogMan.png" title="Definitely saw this 20 years after I was supposed to, but nonetheless great. Okay, maybe 2 years.">
+						<img class="image-tile" src="images/Posters/HeartEyes.png" title="I didn't fully like this one, but it feels wrong to group it with the other slop I've seen this year.">
+						<img class="image-tile" src="images/Posters/Opus.png" title="John Malkovic's singing is by far the most interesting part of this movie.">
+						<img class="image-tile" src="images/Posters/DeathOfAUnicorn.png" title="Other miss by A24. What is happening to my darling?">
+						<img class="image-tile" src="images/Posters/Borderline.png" title="This movie made $17,000 in a sole weekend and no one heard of it. After watching it, I get why. POOOoooaaaAAAaaaAh">
+						<img class="image-tile" src="images/Posters/MonkeyThe.png" title="Oh man I really wanted to like this. This is not Final Destination.">
+						<img class="image-tile" src="images/Posters/WorkingManA.png" title="That moon was HUGE.">
+						<img class="image-tile" src="images/Posters/CaptainAmericaBraveNewWorld.png" title="Why was Han Solo red? And where was Eric Bana?">
+						<img class="image-tile" src="images/Posters/YoureCordiallyInvited.png" title="First movie of 2025! This year's Ricky Stanicky doesn't hold a candle to its predecessor.">
+						<img class="image-tile" src="images/Posters/ElectricStateThe.png" title="This cost how much to make? Also why did all the machines need to be controlled with a little boy's brain?">
+						<img class="image-tile" src="images/Posters/GorgeThe.png" title="There was a tree monster in the gorge.">
+						<img class="image-tile" src="images/Posters/Havoc.png" title="I have so many questions about this movie, but the bullets in that list wouldn't come close to the number of bullets it takes to kill someone in this.">
+						<img class="image-tile" src="images/Posters/LoveHurts.png" title="This movie left such a little impression that the only proof I have to myself that I saw it is my letterboxd review.">					        
+				    </div>
 				</div>
 			</section>
 
